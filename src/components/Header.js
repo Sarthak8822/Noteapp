@@ -4,7 +4,7 @@ const Header = ({ handleToggleDarkMode }) => {
 	return (
 		<div className='header'>
 			<h1>Notes</h1>
-			<button
+			<button 
 				onClick={() =>
 					handleToggleDarkMode(
 						(previousDarkMode) => !previousDarkMode
